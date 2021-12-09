@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "test": "test",
-    "start": "node server.js"
+    "start": "node server.js",
+    "sass": "node-sass -w public/ -o public/ --recursive"
   },
   "keywords": [
     "random",
@@ -22,6 +23,8 @@
   "license": "MIT",
   "dependencies": {
     "express": "^4.17.1",
-    "jquery": "^3.6.0"
+    "jquery": "^3.6.0",
+    "node-sass": "^7.0.0",
+    "sass": "^1.44.0"
   }
 }

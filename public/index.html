@@ -1,11 +1,11 @@
 <!doctype html>
 <head>
-  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  <link rel="stylesheet"
+  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+  integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+  crossorigin="anonymous"/>
+  <link rel="stylesheet" href="./main.css">
 </head>
-<link rel="stylesheet"
-href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-crossorigin="anonymous"/>
 <!-- what is the fastest way to do this?
 If I'm gonna test this locally, I need to
 setup:
@@ -38,21 +38,25 @@ design:
     use sass/bootstrap to separate styling from jquery bs.
   design animation
 -->
-<div id="wrapper">
-  <div id="quote-box">
-    <div class="quote-text">
-      <i class="fa fa-quote-left"> </i><span id="text"></span>
-    </div>
-    <div class="quote-author">- <span id="author"></span></div>
-    <div class="buttons">
-      <a
-        class="button"
-        id="tweet-quote"
-        title="Tweet this quote!"
-        target="_top"
-      >
-        <i class="fa fa-twitter"></i>
-      </a>
-      <button class="button" id="new-quote">Random quote</button>
-    </div>
+<body>
+  <header><h1>TESTING TESTING 1, 2</h1></header>
+  <div id="wrapper">
+    <div id="quote-box">
+      <div class="quote-text">
+        <i class="fa fa-quote-left"> </i><span id="text"></span>
+      </div>
+      <div class="quote-author">- <span id="author"></span></div>
+      <div class="buttons">
+        <a
+          class="button"
+          id="tweet-quote"
+          title="Tweet this quote!"
+          target="_top"
+        >
+          <i class="fa fa-twitter"></i>
+        </a>
+        <button class="button" id="new-quote">Random quote</button>
+      </div>
+  </body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </html>
