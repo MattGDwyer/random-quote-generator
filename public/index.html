@@ -1,7 +1,37 @@
-<link
-  rel="stylesheet"
-  href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
-/>
+<!doctype html>
+
+<link rel="stylesheet"
+href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+crossorigin="anonymous"/>
+<!-- what is the fastest way to do this?
+If I'm gonna test this locally, I need to 
+setup:
+  install jquery using npm
+  copy over server js
+  modify server js for file tree
+  figure out how to make a package json and package lock json
+  create a gitignore file
+  make sure necessary files are hidden
+  do i need to install node?
+  what does npm install do again?
+  npm start?
+  fuck there's a lot to that, but its the way I want to do it.
+  more deployed more better. Fuck yes, back to work
+  test it running locally how? node localhost:3000
+design:
+  only a container in index, and nothing else.
+  identify bootstrap and sass shit to use
+  what would i put in styles.css? Anything? Probably not
+  bootstrap for responsivity
+    but what exactly?
+    look up bootstrap docs
+  Am i just going to copy a database of quotes?
+    yes
+  setup jquery function to build each entry
+    use sass/bootstrap to separate styling from jquery bs.
+  design animation
+-->
 <div id="wrapper">
   <div id="quote-box">
     <div class="quote-text">
@@ -19,3 +49,4 @@
       </a>
       <button class="button" id="new-quote">Random quote</button>
     </div>
+</html>

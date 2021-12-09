@@ -1,0 +1,27 @@
+{
+  "name": "random-quote-generator",
+  "version": "1.0.0",
+  "description": "simple random quote generator built to demonstrate my working knowledge of several front end libraries and frameworks",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node private/server.js"
+  },
+  "keywords": [
+    "random",
+    "quote",
+    "quotes",
+    "generator",
+    "fcc",
+    "freecodecamp",
+    "free",
+    "code",
+    "camp"
+  ],
+  "author": "Matt Dwyer",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jquery": "^3.6.0"
+  }
+}
