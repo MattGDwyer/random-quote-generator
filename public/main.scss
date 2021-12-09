@@ -1,10 +1,36 @@
 body {
   background-color: black;
+  border: 1px solid white;
 }
-html {
-  background-color: black;
+
+header {
+  border: 1px solid yellow;
 }
-* {
-  font-size: 25px;
-  color: pink;
+
+#quote-box {
+  border: 1px solid red;
+}
+
+.fa-quote-left {
+  border: 1px solid blue;
+}
+
+.quote-author {
+  border: 1px solid green;
+}
+
+#text {
+  border: 1px solid purple;
+}
+
+#author {
+  border: 1px solid brown;
+}
+
+.buttons {
+  border: 1px solid cornflowerblue;
+}
+
+.button {
+  border:1px solid cyan;
 }
