@@ -9,39 +9,36 @@
   integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
   crossorigin="anonymous"/>
   <link rel="stylesheet" href="./main.css">
+  <link
+  rel="stylesheet"
+  href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
+/>
 </head>
-<!-- what is the fastest way to do this?
-  only a container in index, and nothing else.
-  identify bootstrap and sass shit to use
-  what would i put in styles.css? Anything? Probably not
-  bootstrap for responsivity
-    but what exactly?
-    look up bootstrap docs
-  Am i just going to copy a database of quotes?
-    yes
-  setup jquery function to build each entry
-    use sass/bootstrap to separate styling from jquery bs.
-  design animation
--->
+<!--
+  jquery will be used to populate text for quote & author
+  it will also be used for animation purposes
+  everything else is going to be bootstrap, sass, html
+ -->
 <body>
   <div id="wrapper container-fluid">
-    <header><h1 class="text-center">Header</h1></header>
+    <header class="row"><h1 class="text-center">Header</h1></header>
     <div id="quote-box">
-      <div class="quote-text">
-        <i class="fa fa-quote-left text-center"> </i><span id="text"></span>
+      <div class="quote-text row">
+        <i class="fa fa-quote-left text-center"> </i><span class="col-xs-6"id="text">Pizza is delicious! Why wouldn't you eat it?</span>
       </div>
-      <div class="quote-author">- <span id="author"></span></div>
-      <div class="buttons">
+      <div class="quote-author row">- <span id="author col-xs-2">a pizza</span></div>
+      <div class="buttons row">
         <a
-          class="button"
+          class="button col-xs-3"
           id="tweet-quote"
           title="Tweet this quote!"
           target="_top"
         >
           <i class="fa fa-twitter"></i>
         </a>
-        <button class="button" id="new-quote">Random quote</button>
+        <button class="button col-xs-2" id="new-quote">Random quote</button>
       </div>
+    </div>
   </body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </html>
