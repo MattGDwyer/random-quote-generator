@@ -1,49 +1,45 @@
-@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@300&family=Warnes&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Lato:100&effect=neon");
 * {
   margin: 0;
   padding: 0;
   vertical-align: baseline; }
 
 body {
-  background-color: black;
-  border: 1px solid white;
+  background-color: #111;
+  color: pink;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  font-family: 'Warnes', cursive; }
+  font-family: 'lato', sans-serif;
+  text-shadow: 4px 4px 4px pink; }
 
 #quote-box {
-  border: 1px solid red;
   position: relative;
   width: 500px;
   padding: 40px 50px;
-  display: table;
-  background-color: #fff; }
+  display: table; }
 
 #text {
-  border: 1px solid purple;
   font-size: 2.5em; }
 
 .quote-author {
-  border: 1px solid green;
   float: right;
   font-size: 1.5em; }
-
-#author {
-  border: 1px solid brown; }
 
 #tweet-icon {
   font-size: 2em;
   padding-top: 5px; }
 
 .buttons {
-  border: 1px solid cornflowerblue;
   width: 500px;
   margin-top: 50px;
   display: block; }
 
 .button {
-  border: 1px solid cyan;
   height: 38px;
-  font-weight: 800; }
+  color: pink;
+  font-family: 'lato', sans-serif;
+  font-weight: 800;
+  background-color: #111;
+  border: none; }
