@@ -20,25 +20,27 @@
   everything else is going to be bootstrap, sass, html
  -->
 <body>
+
   <div id="wrapper container-fluid">
-    <header class="row"><h1 class="text-center">Header</h1></header>
     <div id="quote-box">
       <div class="quote-text row">
-        <i class="fa fa-quote-left text-center"> </i><span class="col-xs-6"id="text">Pizza is delicious! Why wouldn't you eat it?</span>
+        <span id="text">Pizza is delicious! Why wouldn't you eat it?</span>
       </div>
-      <div class="quote-author row">- <span id="author col-xs-2">a pizza</span></div>
+      <div class="quote-author row">- <span id="author col-xs">a pizza</span>
+      </div>
       <div class="buttons row">
         <a
-          class="button col-xs-3"
+          class="button col-xs-6 text-center"
           id="tweet-quote"
           title="Tweet this quote!"
           target="_top"
         >
           <i class="fa fa-twitter"></i>
         </a>
-        <button class="button col-xs-2" id="new-quote">Random quote</button>
+        <button class="button col-xs-6" id="new-quote">Random quote</button>
       </div>
     </div>
+
   </body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </html>

@@ -1,38 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@300&family=Warnes&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline; }
+
 body {
   background-color: black;
   border: 1px solid white;
-}
-
-header {
-  border: 1px solid yellow;
-}
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Warnes', cursive; }
 
 #quote-box {
   border: 1px solid red;
-}
-
-.fa-quote-left {
-  border: 1px solid blue;
-}
-
-.quote-author {
-  border: 1px solid green;
-}
+  position: relative;
+  width: 500px;
+  padding: 40px 50px;
+  display: table;
+  background-color: #fff; }
 
 #text {
   border: 1px solid purple;
-}
+  font-size: 2.5em; }
+
+.quote-author {
+  border: 1px solid green;
+  float: right;
+  font-size: 1.5em; }
 
 #author {
-  border: 1px solid brown;
-}
+  border: 1px solid brown; }
 
 .buttons {
   border: 1px solid cornflowerblue;
-}
+  width: 500px;
+  margin-top: 50px;
+  display: block; }
 
 .button {
   border: 1px solid cyan;
-}
-
-/*# sourceMappingURL=main.css.map */
+  height: 38px; }
