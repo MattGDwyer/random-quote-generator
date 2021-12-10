@@ -33,6 +33,10 @@ body {
 #author {
   border: 1px solid brown; }
 
+#tweet-icon {
+  font-size: 2em;
+  padding-top: 5px; }
+
 .buttons {
   border: 1px solid cornflowerblue;
   width: 500px;
@@ -41,4 +45,5 @@ body {
 
 .button {
   border: 1px solid cyan;
-  height: 38px; }
+  height: 38px;
+  font-weight: 800; }
