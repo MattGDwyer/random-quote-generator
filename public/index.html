@@ -1,9 +1,12 @@
 <!doctype html>
 <html lang="eng">
 <head>
+
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap, CSS, jQuery -->
   <link rel="stylesheet"
   href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
   integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
@@ -13,32 +16,33 @@
   rel="stylesheet"
   href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
 />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="./app.js"></script>
+
 </head>
-<!--
-  jquery will be used to populate text for quote & author
-  it will also be used for animation purposes
-  everything else is going to be bootstrap, sass, html
- -->
+
 <body>
 
   <div id="wrapper container-fluid">
     <div class="font-effect-neon" id="quote-box">
       <div class="quote-text row">
-        <span id="text">Pizza is delicious! Why wouldn't you eat it?</span>
+        <span id="text"></span>
       </div>
-      <div class="quote-author row">- <span id="author col-xs">a pizza</span>
+      <div class="quote-author row">- <span id="author"></span>
       </div>
       <div class="buttons row">
         <a
-          href="https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text=#"
+
+          href="https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text=quoteData.content"
           class="button col-xs-6 text-center"
           id="tweet-quote"
           title="Tweet this quote!"
           target="_top"
         >
+        <!-- Next step: make the quote url a template string with quote and author added. Then use it as the href? -->
           <i class="fa fa-twitter" id="tweet-icon"></i>
         </a>
-        <a href="#" class="button col-xs-6" id="new-quote">Random quote</button>
+        <a href="#" class="button col-xs-6" id="new-quote" onclick="getQuote()">Random quote</button>
       </div>
     </div>
 
