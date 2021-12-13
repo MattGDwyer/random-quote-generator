@@ -62,4 +62,12 @@ body {
   border: none;
 
 }
+.button:hover {
+  color: pink;
+  cursor: pointer;
+}
 
+#new-quote {
+  font-size: 1.5em;
+  font-weight: 100;
+}

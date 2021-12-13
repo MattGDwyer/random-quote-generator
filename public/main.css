@@ -43,3 +43,11 @@ body {
   font-weight: 800;
   background-color: #111;
   border: none; }
+
+.button:hover {
+  color: pink;
+  cursor: pointer; }
+
+#new-quote {
+  font-size: 1.5em;
+  font-weight: 100; }
